@@ -1,0 +1,1002 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: 3224px;
+}
+.nav-1{
+    background-color: #F5F5F5;
+    display: flex;
+    width: 100%;
+    height: 42px;
+    display: inline-block;
+}
+.nav-1:hover{
+    cursor: pointer;
+}
+.boxtext-1{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #666666;
+}
+.boxtext-1:hover{
+    cursor: pointer;
+}
+.box-1{
+    width: 214px;
+    height: 14px;
+    position: relative;
+    top: 13px;
+    left: 80px;
+    display: inline;
+}
+.location{
+    position: relative;
+    top: 2.05px;
+    left: 3.18px;
+    border: 1px;
+}
+.location:hover{
+    cursor: pointer;
+}
+.box-2{
+    /* width: 50px;
+    height: 50px;
+    background-color: #666666; */
+    margin-left: 850px;
+    margin-top: -3px;
+}
+.boxtext-2{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: right;
+    margin-top: -19px;
+    margin-left: 25px;
+    color: #666666;
+}
+.span{
+    font-weight: 600;
+}
+.line{
+    position: relative;
+    left: 15px;
+    top: -1px;
+    color: #cecdcd;
+}
+.truck-icon{
+    position: relative;
+    top: 2px;
+    left: 3.18px;
+    border: 1px;
+}
+.truck-icon:hover{
+    cursor: pointer;
+}
+.box-3{
+    /* width: 50px;
+    height: 50px;
+    background-color: #666666; */
+    margin-left: 1017px;
+    margin-top: -19px;
+}
+.boxtext-3{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #666666;
+    position: relative;
+    top: -16px;
+    left: 30px;
+}
+.boxtext-3:hover{
+    cursor: pointer;
+}
+.line-1{
+    position: relative;
+    left: 15px;
+    top: -1px;
+    color: #cecdcd;
+}
+.box-4{
+    /* width: 10px;
+    height: 50px;
+    background-color: #666666; */
+    margin-left: 1183px;
+    margin-top: -32px;
+}
+.star-icon{
+    position: relative;
+    left: 15px;
+    top: -1px;
+    color: #cecdcd;
+}
+.star-icon:hover{
+    cursor: pointer;
+}
+.lasttag{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    align-items: right;
+    position: relative;
+    top: -22px;
+    left: 40px;
+    color: #666666;
+}
+.lasttag:hover{
+    cursor: pointer;
+}
+.nav-2{
+    background-color: white;
+    display: flex;
+    width: 100%;
+    height: 90px;
+    flex-direction: row;
+    position: relative;
+    top: -4px;
+}
+.nav-2:hover{
+    cursor: pointer;
+}
+.icon{
+    width: 26px;
+    height: 18px;
+    position: relative;
+    top: 15px;
+    left: 12px;
+    border: 1.5px;
+}
+.navbox-1{
+    width: 48px;
+    height: 48px;
+    position: relative;
+    top: 20px;
+    left: 80px;
+    background-color: #F3F9FB;
+    border-radius: 10px;
+}
+.navbox-1:hover{
+    cursor: pointer;
+}
+.navtext-1{
+    font-family: sans-serif;
+    font-size: 1.8em;
+    position: relative;
+    top: -15px;
+    left: 60px;
+    color: #008ECC;
+}
+.input{
+    width: 507px;
+    height: 48px;
+    position: relative;
+    top: 20px;
+    left: 410px;
+    background-color: #F3F9FB;
+    border: none;
+    border-radius: 10px;
+    padding-left: 50px;
+}
+.search-icon{
+    position: relative;
+    top: 25px;
+    left: 450px;
+    z-index: 1;
+}
+.search-icon:hover{
+    cursor: pointer;
+}
+.list-icon{
+    position: relative;
+    top: 28px;
+    left: 360px;
+    z-index: 1;
+}
+.list-icon:hover{
+    cursor: pointer;
+}
+.user-icon{
+    position: relative;
+    top: 33px;
+    left: 420px;
+}
+.user-icon:hover{
+    cursor: pointer;
+}
+.signup{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    color: #666666;
+    width: 50px;
+    height: 100px;
+    position: relative;
+    top: 28px;
+    left: 420px;
+    display: inline;
+}
+.signup:hover{
+    cursor: pointer;
+}
+.line-2{
+    position: relative;
+    left: 15px;
+    top: -1px;
+    color: #c5c5c5;
+}
+.buy-icon{
+    position: relative;
+    top: 33px;
+    left: 455px;
+}
+.buy-icon:hover{
+    cursor: pointer;
+}
+.cart-text{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #666666;
+    position: relative;
+    top: 10px;
+    left: 487px;
+}
+.cart-text:hover{
+    cursor: pointer;
+}
+.linebreak{
+    border: 1px solid #EDEDED;
+}
+.linebreak-1{
+    border: 1px solid #EDEDED;
+}
+.nav-3{
+    background-color: white;
+    width: 100%;
+    height: 69px;
+}
+.drop-1{
+    position: relative;
+    top: 17px;
+    left: 75px;
+}
+.drop-2{
+    position: relative;
+    top: -23px;
+    left: 203px;
+}
+.drop-3{
+    position: relative;
+    top: -63px;
+    left: 365px;
+}
+.drop-4{
+    position: relative;
+    top: -103px;
+    left: 535px;
+}
+.drop-5{
+    position: relative;
+    top: -144px;
+    left: 655px;
+}
+.drop-6{
+    position: relative;
+    top: -183px;
+    left: 790px;
+}
+.drop-7{
+    position: relative;
+    top: -223px;
+    left: 900px;
+}
+.drop-8{
+    position: relative;
+    top: -263px;
+    left: 1090px;
+}
+.herosection{
+    background-color: #212844;
+    width: 1201px;
+    height: 316px;
+    position: relative;
+    top: 20px;
+    left: 80px;
+    border-radius: 16px;
+}
+.bg-img{
+    position: relative;
+    left: 690px;
+}
+.mobile-img{
+    position: relative;
+    left: 270px;
+    top: -20px;
+}
+.herotext-1{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 30px;
+    color: white;
+    top: -270px;
+    position: relative;
+    left: 80px;
+}
+.herotext-2{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 63px;
+    color: white;
+    top: -250px;
+    position: relative;
+    left: 80px;
+}
+.herotext-3{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 30px;
+    color: white;
+    top: -220px;
+    position: relative;
+    left: 80px;
+}
+.dots-icon{
+    top: -170px;
+    position: relative;
+    left: 80px;
+}
+.circleicon-1{
+    top: -190px;
+    position: relative;
+    left: 40px;
+}
+.circleicon-2{
+    top: -190px;
+    position: relative;
+    left: 1150px;
+}
+.heading{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #5a5a5a;
+    position: relative;
+    left: 80px;
+    top: 40px;
+}
+.heading:hover{
+    cursor: pointer;
+}
+.smartphones{
+    color: #008ECC;
+}
+.linebreak-3{
+    border: 1px solid #EDEDED;
+    position: relative;
+    top: 30px;
+}
+.viewall-1{
+    position: relative;
+    top: 17px;
+    left: 1210px;
+}
+.viewall-1:hover{
+    cursor: pointer;
+}
+.linemaking{
+    width: 410px;
+    border: 2px solid #008ECC;
+    position: relative;
+    top: 30px;
+    left: 80px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.linemaking:hover{
+    cursor: pointer;
+}
+.mob-1{
+    left: 70px;
+    top: -75px;
+    position: relative;
+}
+.mob-1:hover{
+    cursor: pointer;
+}
+.mob-2{
+    left: 50px;
+    top: 60px;
+    position: relative;
+}
+.mob-2:hover{
+    cursor: pointer;
+}
+.mob-3{
+    left: 25px;
+    top: -75px;
+    position: relative;
+}
+.mob-3:hover{
+    cursor: pointer;
+}
+.mob-4{
+    left: 40px;
+    top: -75px;
+    position: relative;
+}
+.mob-4:hover{
+    cursor: pointer;
+}
+.mob-5{
+    left: 20px;
+    top: 60px;
+    position: relative;
+}
+.mob-5:hover{
+    cursor: pointer;
+}
+.heading-1{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #5a5a5a;
+    position: relative;
+    left: 80px;
+    top: 40px;
+}
+.heading-1:hover{
+    cursor: pointer;
+}
+.linemaking-1{
+    width: 310px;
+    border: 2px solid #008ECC;
+    position: relative;
+    top: 30px;
+    left: 80px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.linemaking-1:hover{
+    cursor: pointer;
+}
+.linebreak-4{
+    border: 1px solid #EDEDED;
+    position: relative;
+    top: 30px;
+}
+.viewall-2{
+    position: relative;
+    top: 17px;
+    left: 1210px;
+}
+.viewall-2:hover{
+    cursor: pointer;
+}
+.mobile{
+    left: 70px;
+    top: 85px;
+    position: relative;
+}
+.mobile:hover{
+    cursor: pointer;
+}
+.cosmetics{
+    left: 90px;
+    top: 70px;
+    position: relative;
+}
+.cosmetics:hover{
+    cursor: pointer;
+}
+.electronics{
+    left: 130px;
+    top: 70px;
+    position: relative;
+}
+.electronics:hover{
+    cursor: pointer;
+}
+.furniture{
+    width: 125px;
+    height: 130px;
+    left: 180px;
+    top: 30px;
+    position: relative;
+}
+.furniture:hover{
+    cursor: pointer;
+}
+.furniture-1{
+    font-family: sans-serif;
+    font-size: 15px;
+    left: 653px;
+    top: 50px;
+    position: relative;
+}
+.furniture-1:hover{
+    cursor: pointer;
+}
+.watches{
+    left: 815px;
+    top: -185px;
+    position: relative;
+    z-index: 1;
+}
+.watches:hover{
+    cursor: pointer;
+}
+.watches-border{
+    left: 700px;
+    top: -120px;
+    position: relative;
+}
+.watches-border:hover{
+    cursor: pointer;
+}
+.decor{
+    left: 755px;
+    top: -162px;
+    height: 129px;
+    position: relative;
+    z-index: 1;
+}
+.decor:hover{
+    cursor: pointer;
+}
+.decor-text{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    position: relative;
+    left: 1030px;
+    top: -140px;
+}
+.decor-text:hover{
+    cursor: pointer;
+}
+.accessories-img{
+    left: 1170px;
+    top: -310px;
+    position: relative;
+}
+.accessories-img:hover{
+    cursor: pointer;
+}
+.accessories-text{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    position: relative;
+    left: 1190px;
+    top: -285px;
+}
+.accessories-text:hover{
+    cursor: pointer;
+}
+.heading-2{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #5a5a5a;
+    position: relative;
+    left: 80px;
+    top: -120px;
+}
+.heading-2:hover{
+    cursor: pointer;
+}
+.electronics-1{
+    color: #008ECC;
+    position: relative;
+    left: 10px;
+}
+.linemaking-2{
+    width: 265px;
+    border: 2px solid #008ECC;
+    position: relative;
+    top: -130px;
+    left: 80px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.linemaking-2:hover{
+    cursor: pointer;
+}
+.linebreak-5{
+    border: 1px solid #EDEDED;
+    position: relative;
+    top: -130px;
+}
+.viewall-3{
+    position: relative;
+    top: -140px;
+    left: 1210px;
+}
+.viewall-3:hover{
+    cursor: pointer;
+}
+.card-1{
+    position: relative;
+    top: -70px;
+    left: 80px;
+}
+.card-1:hover{
+    cursor: pointer;
+}
+.card-2{
+    position: relative;
+    top: -70px;
+    left: 99px;
+}
+.card-2:hover{
+    cursor: pointer;
+}
+.card-3{
+    position: relative;
+    top: -70px;
+    left: 100px;
+}
+.card-3:hover{
+    cursor: pointer;
+}
+.essentials-1{
+    color: #008ECC;
+    position: relative;
+    left: 10px;
+}
+.heading-3{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #5a5a5a;
+    position: relative;
+    left: 80px;
+    top: -40px;
+}
+.heading-3:hover{
+    cursor: pointer;
+}
+.viewall-4{
+    position: relative;
+    top: -60px;
+    left: 1210px;
+}
+.viewall-4:hover{
+    cursor: pointer;
+}
+.linemaking-3{
+    width: 190px;
+    border: 2px solid #008ECC;
+    position: relative;
+    top: -55px;
+    left: 80px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.linemaking-3:hover{
+    cursor: pointer;
+}
+.linebreak-6{
+    border: 1px solid #EDEDED;
+    position: relative;
+    top: -55px;
+}
+.daily-essentials{
+    position: relative;
+    top: -48px;
+    left: 119px;
+}
+.daily-essentials:hover{
+    cursor: pointer;
+}
+.upto{
+    position: relative;
+    top: -20px;
+    left: -5px;
+}
+.upto:hover{
+    cursor: pointer;
+}
+.grocer{
+    position: relative;
+    top: -120px;
+    left: -169px;
+    z-index: 1;
+}
+.grocer:hover{
+    cursor: pointer;
+}
+.rectangle{
+    position: relative;
+    top: -20px;
+    right: 380px;
+}
+.rectangle:hover{
+    cursor: pointer;
+}
+.vegitables-text{
+    position: relative;
+    top: -50px;
+    left: -850px;
+}
+.vegitables-text:hover{
+    cursor: pointer;
+}
+.upto-1{
+    position: relative;
+    top: -20px;
+    left: -740px;
+}
+.upto-1:hover{
+    cursor: pointer;
+}
+.vegitables{
+    position: relative;
+    top: -105px;
+    left: -600px;
+    z-index: 1;
+}
+.vegitables:hover{
+    cursor: pointer;
+}
+.rectangle-3{
+    position: relative;
+    top: -20px;
+    left: -410px;
+}
+.rectangle-1{
+    position: relative;
+    top: -288px;
+    left: 465px;
+}
+.rectangle-1:hover{
+    cursor: pointer;
+}
+.fruits-text{
+    position: relative;
+    top: -320px;
+    left: 5px;
+}
+.fruits-text:hover{
+    cursor: pointer;
+}
+.upto-2{
+    position: relative;
+    top: -290px;
+    left: 100px;
+}
+.upto-2:hover{
+    cursor: pointer;
+}
+.fruits{
+    position: relative;
+    top: -375px;
+    left: 260px;
+    z-index: 1;
+}
+.fruits:hover{
+    cursor: pointer;
+}
+.rectangle-2{
+    position: relative;
+    top: -288px;
+    left: 75px;
+}
+.rectangle-2:hover{
+    cursor: pointer;
+}
+.strawberry-text{
+    position: relative;
+    top: -320px;
+    left: -390px;
+}
+.strawberry-text:hover{
+    cursor: pointer;
+}
+.upto-3{
+    position: relative;
+    top: -290px;
+    left: -275px;
+}
+.upto-3:hover{
+    cursor: pointer;
+}
+.strawberry{
+    position: relative;
+    top: -400px;
+    left: -125px;
+    z-index: 1;
+}
+.strawberry:hover{
+    cursor: pointer;
+}
+.rectangle-4{
+    position: relative;
+    top: -555px;
+    left: 880px;
+}
+.rectangle-4:hover{
+    cursor: pointer;
+}
+.mango-text{
+    position: relative;
+    top: -585px;
+    left: 430px;
+}
+.mango-text:hover{
+    cursor: pointer;
+}
+.upto-4{
+    position: relative;
+    top: -555px;
+    left: 520px;
+}
+.upto-4:hover{
+    cursor: pointer;
+}
+.mango{
+    position: relative;
+    top: -650px;
+    left: 675px;
+    z-index: 1;
+}
+.mango:hover{
+    cursor: pointer;
+}
+.rectangle-5{
+    position: relative;
+    top: -555px;
+    left: 495px;
+}
+.rectangle-5:hover{
+    cursor: pointer;
+}
+.cherry-text{
+    position: relative;
+    top: -580px;
+    left: 80px;
+}
+.cherry-text:hover{
+    cursor: pointer;
+}
+.upto-5{
+    position: relative;
+    top: -555px;
+    left: 175px;
+}
+.upto-5:hover{
+    cursor: pointer;
+}
+.cherry{
+    position: relative;
+    top: -645px;
+    left: 315px;
+    z-index: 1;
+}
+.cherry:hover{
+    cursor: pointer;
+}
+.footer{
+    width: 100%;
+    height: 650px;
+    background-color: #008ECC;
+    position: relative;
+    top: -400px;
+}
+.footer:hover{
+    cursor: pointer;
+}
+.megamart{
+    position: relative;
+    top: 75px;
+    left: 87px;
+}
+.contactus{
+    position: relative;
+    top: 130px;
+    left: -135px;
+}
+.whatsapp{
+    position: relative;
+    top: 200px;
+    left: -237px;
+}
+.callus{
+    position: relative;
+    top: 270px;
+    left: -405px;
+}
+.app{
+    position: relative;
+    top: 330px;
+    left: -570px;
+}
+.web-icon{
+    position: relative;
+    top: 420px;
+    left: -700px;
+}
+.footer-line{
+    position: relative;
+    top: 500px;
+    left: 70px;   
+}
+.circle-img{
+    position: relative;
+    top: -78px;
+    left: 1027px;   
+}
+.last-line{
+    position: relative;
+    top: 145px;
+    left: 150px;   
+}
+.categories{
+    position: relative;
+    top: -370px;
+    left: -90px;
+}
+.line-31{
+    position: relative;
+    top: -350px;
+    left: -310px;
+}
+.li{
+    position: relative;
+    top: -320px;
+    left: 670px;
+    color: white;
+    font-family: sans-serif;
+    line-height: 40px;
+    font-size: 15px;
+}
+.cs{
+    position: relative;
+    top: -710px;
+    left: 1000px;
+}
+.line-32{
+    position: relative;
+    top: -687px;
+    left: 830px;
+    width: 170px;
+}
+.li-1{
+    position: relative;
+    top: -658px;
+    left: 1020px;
+    color: white;
+    font-family: sans-serif;
+    line-height: 40px;
+    font-size: 15px;
+}
+
+
+
+@media screen and (max-width: 1024px){
+    .main{
+        height: 100%;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+}
